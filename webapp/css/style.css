@@ -1,13 +1,6 @@
-html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
-    margin-right: 0.125rem
+
+ .productList{
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px;
  }
- 
- html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
-    margin-left: 0.125rem
- }
- 
- .myAppDemoWT .myCustomText {
-    display: inline-block;
-    font-weight: bold;
- }
- 

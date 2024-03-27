@@ -3,15 +3,15 @@
 	displayBlock="true"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc">
-	<Shell>
+
 		<App busy="{appView>/busy}" class="sapUiSizeCompact" >
 			<pages>
 				<Page title="{i18n>peoplePageTitle}" class="customPageStyle">
 					<content>
 						<Table
-
+							class="productList"
 							id="productList" items="{/Product}"
-							mode="SingleSelectLeft">
+							mode="MultiSelect">
 
 							<headerToolbar>
 								<OverflowToolbar>
@@ -45,7 +45,7 @@
 								</OverflowToolbar>
 							</headerToolbar>
 							
-							<columns>
+							<columns class="TableCol">
 								<Column id="userNameColumn">
 									<Text text="Product ID"/>
 								</Column>
@@ -106,5 +106,5 @@
 				</Page>
 			</pages>
 		</App>
-	</Shell>
+	
 </mvc:View>
